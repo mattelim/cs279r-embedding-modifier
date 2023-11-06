@@ -52,7 +52,7 @@ learning_rate = 0.01
 num_epochs = 10000  # default 10000
 weight_decay = 0.001  # L2 regularization strength
 
-app = Flask(__name__, static_url_path='', static_folder='build')
+app = Flask(__name__, static_url_path='', static_folder='dist')
 cors = CORS(app)
 # logging.basicConfig(filename='flask.log', level=logging.DEBUG)
 
